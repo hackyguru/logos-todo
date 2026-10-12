@@ -1,4 +1,10 @@
+<div align="center">
+
+<img src="todo-ui/icons/todo.png" alt="Logos Todo logo" width="128" height="128">
+
 # Logos Todo
+
+</div>
 
 A todo app for [Logos Basecamp](https://logos.co), split into a C++ core module that stores todos in SQLite and a QML UI module that calls it.
 
