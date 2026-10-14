@@ -71,7 +71,7 @@ Item {
                         enabled: !modelData.completed
                         onToggled: {
                             if (!modelData.completed) {
-                                callTodo("completeTodo", [modelData.id])
+                                callTodo("completeTodo", [String(modelData.id)])
                                 refresh()
                             }
                         }
@@ -92,7 +92,7 @@ Item {
                         font.pixelSize: 16
                         flat: true
                         onClicked: {
-                            callTodo("removeTodo", [modelData.id])
+                            callTodo("removeTodo", [String(modelData.id)])
                             refresh()
                         }
                     }
